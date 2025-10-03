@@ -1,0 +1,27 @@
+//frontend folder
+1 npm create vite@latest
+
+2 npm i react-data-table-component styled-components axios react-icons react-router-dom tailwindcss@3 postcss autoprefixer 
+
+3 npx tailwindcss init -p
+
+4 src/pages
+src/component
+src/utils
+
+
+//server folder
+5 npm init -y
+
+6 npm i bcrypt cors express  jsonwebtoken mongoose multer nodemon path
+
+7 index.js create
+
+8 package.json : "type":"module" added
+
+9 server created
+
+10 login page in frontend
+--for login 
+--user model created in server
+--and done mogodb connection on userseed file
