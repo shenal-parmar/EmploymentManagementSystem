@@ -1,12 +1,57 @@
-# React + Vite
+# Project Definition: MERN Stack Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Employee Management System (EMS) is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The system is designed to streamline and automate the management of employees within an organization. It provides role-based authentication and separate dashboards for administrators and employees, enabling efficient monitoring, record-keeping, and decision-making.
 
-Currently, two official plugins are available:
+# Objectives
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To provide a centralized platform for managing employees, departments, salaries, and leaves.
 
-## Expanding the ESLint configuration
+To implement secure authentication and authorization for admins and employees.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To simplify HR operations by digitizing employee data management.
+
+To enable employees to access their profiles, salary details, and leave records through a self-service dashboard.
+
+# Key Features
+
+## Authentication & Authorization
+
+Secure login and registration.
+
+Role-based access control for Admin and Employee users.
+
+## Admin Dashboard
+
+Manage employees (add, update, delete, view profiles).
+
+Manage departments and assign employees to them.
+
+Manage salary records and generate salary slips.
+
+Track and approve/reject employee leave requests.
+
+View analytics and reports for better decision-making.
+
+## Employee Dashboard
+
+View and update personal profile details.
+
+Check salary history and download slips.
+
+Apply for leaves and track leave status.
+
+Access department and team information.
+
+## Employee Records Management
+
+Centralized employee database stored in MongoDB.
+
+CRUD operations for employees, departments, salaries, and leaves.
+
+## Scalability & Security
+
+Built using RESTful APIs with Express.js and Node.js.
+
+JWT-based authentication for secure access.
+
+Responsive UI with React.js for accessibility across devices.
